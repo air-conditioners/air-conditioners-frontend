@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles/index.css'
+<<<<<<< Updated upstream
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+=======
+import reportWebVitals from './reportWebVitals';
+import Router from './Router';
+>>>>>>> Stashed changes
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+<<<<<<< Updated upstream
     <App />
+=======
+    <Router />
+>>>>>>> Stashed changes
   </React.StrictMode>
 );
 
