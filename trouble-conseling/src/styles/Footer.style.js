@@ -8,6 +8,8 @@ export const Footer = styled.footer`
     left: 0;
     bottom: 0;
     width: 100%;
+    background-color: #ffffff;
+    z-index: 2;
 `
 export const Content = styled.div`
     width: 200px;
