@@ -1,10 +1,13 @@
 import React from "react";
+import * as H from "../../styles/Header.style"
+import Logo from "../../img/logo.png"
 
 const Header = () => {
   return (
-    <header>
-      <h2>로고 넣어주세용</h2>
-    </header>
+    <H.Header>
+      <H.Title>수호천사</H.Title>
+      <H.Image src={Logo} alt="" />
+    </H.Header>
   )
 }
 
