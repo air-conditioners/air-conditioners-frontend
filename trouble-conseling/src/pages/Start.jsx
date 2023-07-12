@@ -1,5 +1,6 @@
 import React from "react";
-import Layout from "./Layout";
+import Header from "../components/common/Header";
+import Footer from "../components/common/Footer";
 import * as S from '../styles/Start'
 import Logo from '../img/logo.png'
 import '../styles/Start.css'
@@ -7,7 +8,7 @@ import '../styles/Start.css'
 const Start = () => {
     return (
         <div>
-            <Layout>
+            <Header/>
             <br/>
             <br/>
             <br/>
@@ -31,7 +32,7 @@ const Start = () => {
                         고민 해결하러 가기
                     </S.Link>
                 </S.LinkWrap>
-            </Layout>
+            <Footer/>
         </div>
     )
 }

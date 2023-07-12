@@ -1,0 +1,20 @@
+.startImg {
+    width: 120px;
+    height: 80px;
+    padding: left bottom 20px;
+}
+* {
+    text-align: center;
+}
+.linkButton {
+    font-size: 35px;
+    text-align: center;
+    text-align: middle;
+    text-decoration: none;
+}
+.scdTitle {
+    font-size: 40px;
+    border-bottom: 3px #1F88FF;
+    width: 200px;
+    height: 100px;
+}

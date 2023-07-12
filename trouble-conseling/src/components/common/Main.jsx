@@ -1,6 +1,6 @@
 import React from 'react';
 import * as M from "../../styles/Main.style"
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Person from "../../img/person.png"
 import Send from "../../img/send.png"
 import axios from 'axios'
@@ -29,8 +29,8 @@ const Main = () => {
                 };
                 setFormData('');
                 // POST 요청을 보낼 서버의 URL
-                const url = 'http://172.16.1.91:8080/chat/question';
-                const getUrl = 'http://172.16.1.91:8080/chat/read';
+                const url = 'http://172.16.3.91:8080/chat/question';
+                const getUrl = 'http://172.16.3.91:8080/chat/read';
 
                 const response = await axios.post(url, postData);
                 const respjonse = await axios.get(getUrl);
