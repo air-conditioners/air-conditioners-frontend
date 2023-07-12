@@ -1,10 +1,11 @@
 import React from "react";
+import * as F from "../../styles/Footer.style"
 
 const Footer = () => {
+
     return (
-        <footer>
-            <h2>푸터 내용 좀 넣어주세용</h2>
-        </footer>
+        <F.Footer>
+        </F.Footer>
     )
 }
 
