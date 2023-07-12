@@ -11,7 +11,7 @@ export const Header = styled.header`
     display: flex;
     border-bottom: 2.5px solid #0078FF;
 `
-export const Title = styled.h2`
+export const Title = styled.p`
     margin-top: 37px;
     margin-left: 100px;
     font-size: 27px;

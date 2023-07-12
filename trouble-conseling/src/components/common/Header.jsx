@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <H.Header>
       <H.Title>수호천사</H.Title>
-      <H.Image src={Logo} alt="" />
+      <H.Image src={Logo} alt=""/>
     </H.Header>
   )
 }
